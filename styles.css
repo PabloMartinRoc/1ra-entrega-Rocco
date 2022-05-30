@@ -1,0 +1,50 @@
+*{
+    font-family: "Celta2";
+    background-color: antiquewhite;
+}
+.flex-container{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+@font-face {
+    font-family: "Celta";
+    src: url(fonts/CELTG___.TTF);
+}
+
+@font-face { 
+    font-family: "Celta2";
+    src: url(fonts/celticmd.ttf);
+}
+
+header h1{
+    color: blue;
+    text-align: center;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    font-family: "Celta";
+    
+}
+
+header img{
+    width: 300px;
+    height: 200px;
+    align-self: center;
+}
+
+header nav ul li{
+
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: greenyellow;
+}
+
+section4 span img{
+    width:  250px;
+    height: 300px;
+}
+
